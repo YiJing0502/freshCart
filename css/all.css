@@ -1,0 +1,26 @@
+.h5, h5 {
+  font-size: 1.09375rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  color: #21313c;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  letter-spacing: -0.03rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #5c6c75;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+}/*# sourceMappingURL=all.css.map */
