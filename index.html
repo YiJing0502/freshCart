@@ -16,9 +16,9 @@
     <header>
         <div class="top-showcase">
             <div class="container p-1">
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-center justify-content-md-between">
                     <span> Super Value Deals - Save more with coupons</span>
-                    <div class="dropdown">
+                    <div class="dropdown d-none d-md-block">
                         <div class="btn-group">
                             <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,20 +45,65 @@
         </div>
         </div>
         <div class="top-search">
-            <div class="container">
-                <div class="top-search-left d-flex">
+            <div class="container d-flex justify-content-between">
+                <div class="top-search-left d-flex align-items-center">
                     <a href="#" class="freshcart-logo"><img src="./img/icon/freshcart-logo.svg" alt=""></a>
-                    <form class="d-flex position-relative" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search for products" aria-label="Search">
-                        <button class="btn search-btn position-absolute" type="submit"><i class="bi bi-search"></i></button>
+                    
+                    <form class="d-flex position-relative d-none d-lg-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search for products"
+                            aria-label="Search">
+                        <button class="btn search-btn position-absolute" type="submit"><i
+                                class="bi bi-search"></i></button>
                     </form>
-                    <button type="button" class="btn btn-outline-secondary" disabled>
+                    <button type="button" class="btn btn-outline-secondary location-btn d-none d-lg-block">
                         <i class="bi bi-geo-alt"></i>
-                        <span>Location</span>   
+                        <span>Location</span>
+                    </button>
+                </div>
+                <div class="top-search-right d-flex align-items-center">
+
+                    <a href="#" class="position-relative d-none d-lg-block ">
+                        <i class="bi bi-heart top-icon"></i>
+                        <span class="position-absolute badge badge-circle text-bg-success rounded-circle">5</span>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-person top-icon"></i>
+                    </a>
+                    <a href="#" class="position-relative">
+                        <i class="bi bi-cart2 top-icon"></i>
+                        <span class="position-absolute badge badge-circle text-bg-success rounded-circle">1</span>
+                    </a>
+                    <button class="btn " type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <i class="bi bi-text-indent-left top-icon"></i>
                     </button>
 
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
+                                Some text as placeholder. In real life you can have the elements you have chosen. Like,
+                                text, images, lists, etc.
+                            </div>
+                            <div class="dropdown mt-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown">
+                                    Dropdown button
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="top-search-right"></div>
             </div>
         </div>
         <div class="top-nav"></div>
