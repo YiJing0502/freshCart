@@ -80,4 +80,20 @@ body {
   background-color: rgb(240, 243, 242);
   border-radius: 10px;
   color: #21313c;
+}
+
+.top-search .container .top-search-left form .form-control {
+  width: 378px;
+  height: 41px;
+}
+.top-search .container .top-search-left form .form-control:focus {
+  color: #21313c;
+  background-color: #fff;
+  border-color: #85d685;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(10, 173, 10, 0.25);
+}
+.top-search .container .top-search-left .search-btn {
+  right: 10px;
+  z-index: 10;
 }/*# sourceMappingURL=all.css.map */
