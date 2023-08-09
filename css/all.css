@@ -50,6 +50,10 @@ body {
   padding: 0;
   background-color: unset;
   border: 0;
+  font-weight: 500;
+}
+.top-showcase .dropdown .btn-group .chevron-down::before {
+  font-size: 11px;
 }
 .top-showcase .dropdown .btn-group .dropdown-toggle::after {
   border-top: 0.3em solid;
@@ -67,10 +71,13 @@ body {
   padding: 10px;
 }
 .top-showcase .dropdown .btn-group ul.dropdown-menu li.flag-menu {
+  font-weight: 500;
   cursor: pointer;
   padding: 5px 10px;
+  color: #5c6c75;
 }
 .top-showcase .dropdown .btn-group ul.dropdown-menu li.flag-menu:hover {
   background-color: rgb(240, 243, 242);
   border-radius: 10px;
+  color: #21313c;
 }/*# sourceMappingURL=all.css.map */

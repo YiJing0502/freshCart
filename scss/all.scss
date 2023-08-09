@@ -1,4 +1,8 @@
+$body-color: #5c6c75;
+$head-color: #21313c;
 $top-showcase-bg-color: rgb(240, 243, 242);
+
+$body-font-weight: 500;
 .h5,
 h5 {
     font-size: 1.09375rem;
@@ -16,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #21313c;
+    color: $head-color;
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: .5rem;
@@ -37,10 +41,10 @@ h3 {
 }
 
 body {
-    color: #5c6c75;
+    color: $body-color;
     font-family: "Inter", sans-serif;
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: $body-font-weight;
 }
 
 .top-showcase {
@@ -49,10 +53,15 @@ body {
     .dropdown {
         .btn-group {
             .btn {
-                color: #5c6c75;
+                color: $body-color;
                 padding: 0;
                 background-color: unset;
                 border: 0;
+                font-weight: $body-font-weight;
+
+            }
+            .chevron-down::before {
+                font-size: 11px;
             }
             .dropdown-toggle::after {
                 // display: inline-block;
@@ -73,12 +82,16 @@ body {
             ul.dropdown-menu {
                 padding: 10px;
                 li.flag-menu {
+                    font-weight: $body-font-weight;
                     cursor: pointer;
                     padding: 5px 10px;
+                    color: $body-color;
+
                 }
                 li.flag-menu:hover {
                     background-color: $top-showcase-bg-color;
                     border-radius: 10px;
+                    color: $head-color;
 
                 }
             }
