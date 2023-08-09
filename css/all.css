@@ -1,8 +1,20 @@
-.h5, h5 {
+.h5,
+h5 {
   font-size: 1.09375rem;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #21313c;
   font-weight: 600;
   line-height: 1.2;
@@ -10,7 +22,12 @@
   margin-top: 0;
 }
 
-.h1, .h2, .h3, h1, h2, h3 {
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
   letter-spacing: -0.03rem;
 }
 
@@ -23,4 +40,37 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 0.875rem;
   font-weight: 500;
+}
+
+.top-showcase {
+  background-color: rgb(240, 243, 242);
+}
+.top-showcase .dropdown .btn-group .btn {
+  color: #5c6c75;
+  padding: 0;
+  background-color: unset;
+  border: 0;
+}
+.top-showcase .dropdown .btn-group .dropdown-toggle::after {
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  border: 0;
+  content: none;
+}
+.top-showcase .dropdown .btn-group .flag {
+  width: 16px;
+  height: 12px;
+}
+.top-showcase .dropdown .btn-group ul.dropdown-menu {
+  padding: 10px;
+}
+.top-showcase .dropdown .btn-group ul.dropdown-menu li.flag-menu {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.top-showcase .dropdown .btn-group ul.dropdown-menu li.flag-menu:hover {
+  background-color: rgb(240, 243, 242);
+  border-radius: 10px;
 }/*# sourceMappingURL=all.css.map */
