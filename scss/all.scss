@@ -171,6 +171,9 @@ body {
                 }
 
             }
+            .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+                border-width: 0;
+            }
             button {
                 .bi-text-indent-left {
                     margin-left: 10px;
@@ -179,5 +182,26 @@ body {
                 }
             }
         }
+    }
+}
+
+.top-nav {
+    .container {
+        .dropdown {
+            .dropdown-toggle::after {
+                content: none;
+                border: 0;
+            }
+            .all-departments-btn {
+                height: 42px;
+                padding: 8.8px 24px;
+                font-weight: $body-font-weight;
+                background-color: $main-green;
+                color: #fff;
+                border-width: 0;
+        
+            }
+        }
+
     }
 }

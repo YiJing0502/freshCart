@@ -132,8 +132,24 @@ body {
   top: 0;
   right: -10px;
 }
+.top-search .container .top-search-right .btn-check:checked + .btn, .top-search .container .top-search-right .btn.active, .top-search .container .top-search-right .btn.show, .top-search .container .top-search-right .btn:first-child:active, .top-search .container .top-search-right :not(.btn-check) + .btn:active {
+  border-width: 0;
+}
 .top-search .container .top-search-right button .bi-text-indent-left {
   margin-left: 10px;
   font-size: 35px;
   color: #0aad0a;
+}
+
+.top-nav .container .dropdown .dropdown-toggle::after {
+  content: none;
+  border: 0;
+}
+.top-nav .container .dropdown .all-departments-btn {
+  height: 42px;
+  padding: 8.8px 24px;
+  font-weight: 500;
+  background-color: #0aad0a;
+  color: #fff;
+  border-width: 0;
 }/*# sourceMappingURL=all.css.map */
