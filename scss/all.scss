@@ -49,6 +49,37 @@ body {
     font-weight: $body-font-weight;
 }
 
+li {
+    list-style: none;
+}
+
+.dropdown-toggle::after {
+    content: none;
+    border: 0;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    border-width: 0;
+}
+.dropdown-menu {
+    padding: 10px;
+    .dropdown-item {
+        font-weight: $body-font-weight;
+        padding: 5px 10px;
+        color: $body-color;
+        &:hover {
+            background-color: $top-showcase-bg-color;
+            border-radius: 10px;
+            color: $head-color;
+        }
+    }
+
+}
+
 .top-showcase {
     background-color: $top-showcase-bg-color;
 
@@ -100,7 +131,6 @@ body {
                     background-color: $top-showcase-bg-color;
                     border-radius: 10px;
                     color: $head-color;
-
                 }
             }
         }
@@ -115,12 +145,14 @@ body {
     .container {
         .top-search-left {
             width: 100%;
+
             .freshcart-logo {
                 width: 224px;
             }
 
             form {
                 width: 50%;
+
                 .form-control {
                     flex: 1 1 auto;
                     width: 1%;
@@ -159,6 +191,7 @@ body {
                 font-size: 25px;
                 margin-left: 25px;
             }
+
             a {
                 text-decoration: none;
                 color: $body-color;
@@ -171,9 +204,15 @@ body {
                 }
 
             }
-            .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+
+            .btn-check:checked+.btn,
+            .btn.active,
+            .btn.show,
+            .btn:first-child:active,
+            :not(.btn-check)+.btn:active {
                 border-width: 0;
             }
+
             button {
                 .bi-text-indent-left {
                     margin-left: 10px;
@@ -188,10 +227,7 @@ body {
 .top-nav {
     .container {
         .dropdown {
-            .dropdown-toggle::after {
-                content: none;
-                border: 0;
-            }
+
             .all-departments-btn {
                 height: 42px;
                 padding: 8.8px 24px;
@@ -199,7 +235,67 @@ body {
                 background-color: $main-green;
                 color: #fff;
                 border-width: 0;
-        
+
+                &:hover {
+                    background-color: darken($main-green, 5%);
+                }
+
+            }
+
+            
+        }
+
+        ul.top-nav-menu {
+            li.top-nav-item {
+                .dropdown {
+                    .dropdown-menu {
+                        .test {
+                            max-width: 1320px;
+
+                        }
+                    }
+                }
+                #dropdown-menu-big {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 32px;
+                    margin: 1.25rem auto;
+                    max-width: 1320px;
+                    padding: 1rem 0;
+                }
+                .dropdown-menu.show {
+                    display: block;
+                }
+                
+
+                .nav-down-i {
+                    font-size: 10px;
+                }
+
+                .light-blue {
+                    background-color: #CCE1FE;
+                    color: #21313c;
+                }
+
+                .hover-green {
+                    font-weight: $body-font-weight;
+                    outline: none;
+                    border: 0;
+                    &:active {
+                        border-width: 0;
+
+                    }
+                    &:hover {
+                        border-width: 0;
+                        color: $main-green;
+
+                    }
+                    &:focus {
+                        outline: none;
+
+                    }
+                }
             }
         }
 
