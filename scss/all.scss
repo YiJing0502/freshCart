@@ -67,6 +67,9 @@ p{
 .fs-7{
     font-size: $small-font;
 }
+.mb-2-3 {
+    margin-bottom: 12px;
+}
 
 .dropdown-toggle::after {
     content: none;
@@ -329,6 +332,7 @@ p{
 section.popluar-product {
     .row {
         .col {
+            flex-grow: 1;
             .card-product {
                 &:hover {
                     border-color: $main-green;
@@ -385,7 +389,6 @@ section.popluar-product {
                 .star-color {
                     color: $star-color;
                 }
-
                 .btn-add {
                     background-color: $main-green;
                     padding: 4px 8px;

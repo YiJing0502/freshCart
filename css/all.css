@@ -59,6 +59,10 @@ p {
   font-size: 12.25px;
 }
 
+.mb-2-3 {
+  margin-bottom: 12px;
+}
+
 .dropdown-toggle::after {
   content: none;
   border: 0;
@@ -238,6 +242,9 @@ p {
   outline: none;
 }
 
+section.popluar-product .row .col {
+  flex-grow: 1;
+}
 section.popluar-product .row .col .card-product:hover {
   border-color: #0aad0a;
 }
