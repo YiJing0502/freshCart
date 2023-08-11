@@ -253,7 +253,8 @@ p {
 }
 
 .top-nav {
-    .container {
+    border-bottom: 1px solid #dfe2e1;
+    .container {            
         // mega-menu-use-it
         position: relative;
 
@@ -277,88 +278,92 @@ p {
 
         }
 
-        ul.top-nav-menu {
-            li.top-nav-item {
-                .dropdown {
-                    .dropdown-menu {
-                        .test {
-                            max-width: 1320px;
+        ul.top-nav-menu {   
+
+                li.top-nav-item {
+                    .dropdown {
+                        .dropdown-menu {
+                            .test {
+                                max-width: 1320px;
+
+                            }
+                        }
+                    }
+
+                    #dropdown-menu-big {
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 32px;
+                        margin: 1.25rem auto;
+                        max-width: 1320px;
+                        padding: 1rem 0;
+                    }
+
+                    .dropdown-menu.show {
+                        display: block;
+                    }
+
+
+                    .nav-down-i {
+                        font-size: 10px;
+                    }
+
+                    .light-blue {
+                        background-color: #CCE1FE;
+                        color: #21313c;
+                    }
+
+                    .hover-green {
+                        font-weight: $body-font-weight;
+                        outline: none;
+                        border: 0;
+
+                        &:active {
+                            border-width: 0;
+
+                        }
+
+                        &:hover {
+                            border-width: 0;
+                            color: $main-green;
+
+                        }
+
+                        &:focus {
+                            outline: none;
 
                         }
                     }
                 }
 
-                #dropdown-menu-big {
-                    position: absolute;
-                    left: 0;
-                    right: 0;
-                    top: 32px;
-                    margin: 1.25rem auto;
-                    max-width: 1320px;
-                    padding: 1rem 0;
-                }
-
-                .dropdown-menu.show {
-                    display: block;
-                }
-
-
-                .nav-down-i {
-                    font-size: 10px;
-                }
-
-                .light-blue {
-                    background-color: #CCE1FE;
-                    color: #21313c;
-                }
-
-                .hover-green {
-                    font-weight: $body-font-weight;
-                    outline: none;
-                    border: 0;
-
-                    &:active {
-                        border-width: 0;
-
-                    }
-
-                    &:hover {
-                        border-width: 0;
-                        color: $main-green;
-
-                    }
-
-                    &:focus {
-                        outline: none;
-
-                    }
-                }
-            }
-
-            // mega-menu-control
-            li.mega-menu {
-                .dropdown {
-                    position: unset;
-                    width: 100%;
-                    .dropdown-menu.show {
-                        inset: 50px 0 0 0 !important;
-                        transform: unset!important;
+                // mega-menu-control
+                li.mega-menu {
+                    .dropdown {
+                        position: unset;
                         width: 100%;
-                        height: 400px;
-                    
+
+                        .dropdown-menu.show {
+                            inset: 50px 0 0 0 !important;
+                            transform: unset !important;
+                            width: 100%;
+                            height: 400px;
 
 
-                        // height: 100%;
-                        // left: -300px;
-                        // right: 0px!important;
-                        // left: 10px!important;
+
+                            // height: 100%;
+                            // left: -300px;
+                            // right: 0px!important;
+                            // left: 10px!important;
+                        }
                     }
                 }
             }
+
         }
 
     }
-}
+
 
 section.popluar-product {
     margin: 80px 0;

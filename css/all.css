@@ -193,6 +193,9 @@ p {
   color: #0aad0a;
 }
 
+.top-nav {
+  border-bottom: 1px solid #dfe2e1;
+}
 .top-nav .container {
   position: relative;
 }
