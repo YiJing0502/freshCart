@@ -247,11 +247,12 @@ section.popluar-product .row .col .card-product a.btn-action:hover {
   color: #fff;
   background-color: #0aad0a;
 }
-section.popluar-product .row .col .card-product a.Quick-View:hover::after {
-  content: "Quick View";
+section.popluar-product .row .col .card-product a.action-link:hover::after {
+  content: attr(data-action);
   display: block;
   font-size: 14px;
   height: 30px;
+  line-height: 30px;
   width: 90px;
   border-radius: 10px;
   background-color: #21313c;
@@ -260,55 +261,7 @@ section.popluar-product .row .col .card-product a.Quick-View:hover::after {
   right: -30px;
   z-index: 10;
 }
-section.popluar-product .row .col .card-product a.Quick-View:hover::before {
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  top: -12px;
-  left: 7px;
-  border: 10px solid;
-  border-color: #21313c transparent transparent transparent;
-}
-section.popluar-product .row .col .card-product a.wishlist:hover::after {
-  content: "Wishlist";
-  display: block;
-  font-size: 14px;
-  height: 30px;
-  width: 90px;
-  border-radius: 10px;
-  background-color: #21313c;
-  position: absolute;
-  top: -40px;
-  right: -30px;
-  z-index: 10;
-}
-section.popluar-product .row .col .card-product a.wishlist:hover::before {
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  top: -12px;
-  left: 7px;
-  border: 10px solid;
-  border-color: #21313c transparent transparent transparent;
-}
-section.popluar-product .row .col .card-product a.compare:hover::after {
-  content: "Compare";
-  display: block;
-  font-size: 14px;
-  height: 30px;
-  width: 90px;
-  border-radius: 10px;
-  background-color: #21313c;
-  position: absolute;
-  top: -40px;
-  right: -30px;
-  z-index: 10;
-}
-section.popluar-product .row .col .card-product a.compare:hover::before {
+section.popluar-product .row .col .card-product a.action-link:hover::before {
   content: "";
   display: block;
   width: 10px;
