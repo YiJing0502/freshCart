@@ -1,7 +1,10 @@
 $body-color: #5c6c75;
 $head-color: #21313c;
 $main-green: #0aad0a;
+$star-color: #FFC107;
 $top-showcase-bg-color: rgb(240, 243, 242);
+$samll-font: 15px;
+$meddle-font: 17px;
 
 $body-font-weight: 500;
 
@@ -53,6 +56,15 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+p{
+    color: $body-color;
+}
+
 .dropdown-toggle::after {
     content: none;
     border: 0;
@@ -82,6 +94,7 @@ li {
     }
 
 }
+
 
 .top-showcase {
     background-color: $top-showcase-bg-color;
@@ -365,6 +378,9 @@ section.popluar-product {
                     border: 10px solid;
                     border-color: $head-color transparent transparent transparent;
 
+                }
+                .star-color {
+                    color: $star-color;
                 }
                 
                 

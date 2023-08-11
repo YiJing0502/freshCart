@@ -46,6 +46,15 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+p {
+  color: #5c6c75;
+}
+
 .dropdown-toggle::after {
   content: none;
   border: 0;
@@ -271,4 +280,7 @@ section.popluar-product .row .col .card-product a.action-link:hover::before {
   left: 7px;
   border: 10px solid;
   border-color: #21313c transparent transparent transparent;
+}
+section.popluar-product .row .col .card-product .star-color {
+  color: #FFC107;
 }/*# sourceMappingURL=all.css.map */
