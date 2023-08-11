@@ -45,7 +45,7 @@
 
 .shop{
     width:123px;
-    height:45px;
+    height:40px;
     top:150px;
     left:37px;
 }
@@ -57,14 +57,15 @@
 }
 .h-470{
     height: 470px ;
-
 }
-.d-card-product {
+
+
+.card-product {
     width: 178px;
     height: 305px;
   }
 
-.d-card-product:hover {
+  .card-product:hover {
     border-color: #0aad0a;
   }
 
