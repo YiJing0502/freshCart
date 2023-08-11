@@ -93,17 +93,17 @@ p {
 .top-showcase {
   background-color: rgb(240, 243, 242);
 }
-.top-showcase .dropdown .btn-group .btn {
+.top-showcase .container .dropdown .btn-group .btn {
   color: #5c6c75;
   padding: 0;
   background-color: unset;
   border: 0;
   font-weight: 500;
 }
-.top-showcase .dropdown .btn-group .chevron-down::before {
+.top-showcase .container .dropdown .btn-group .chevron-down::before {
   font-size: 11px;
 }
-.top-showcase .dropdown .btn-group .dropdown-toggle::after {
+.top-showcase .container .dropdown .btn-group .dropdown-toggle::after {
   border-top: 0.3em solid;
   border-right: 0.3em solid transparent;
   border-bottom: 0;
@@ -111,20 +111,20 @@ p {
   border: 0;
   content: none;
 }
-.top-showcase .dropdown .btn-group .flag {
+.top-showcase .container .dropdown .btn-group .flag {
   width: 16px;
   height: 12px;
 }
-.top-showcase .dropdown .btn-group ul.dropdown-menu {
+.top-showcase .container .dropdown .btn-group ul.dropdown-menu {
   padding: 10px;
 }
-.top-showcase .dropdown .btn-group ul.dropdown-menu li.flag-menu {
+.top-showcase .container .dropdown .btn-group ul.dropdown-menu li.flag-menu {
   font-weight: 500;
   cursor: pointer;
   padding: 5px 10px;
   color: #5c6c75;
 }
-.top-showcase .dropdown .btn-group ul.dropdown-menu li.flag-menu:hover {
+.top-showcase .container .dropdown .btn-group ul.dropdown-menu li.flag-menu:hover {
   background-color: rgb(240, 243, 242);
   border-radius: 10px;
   color: #21313c;
@@ -193,6 +193,12 @@ p {
   color: #0aad0a;
 }
 
+.top-nav .container {
+  position: relative;
+}
+.top-nav .container .dropdown {
+  position: unset;
+}
 .top-nav .container .dropdown .all-departments-btn {
   height: 42px;
   padding: 8.8px 24px;
@@ -240,6 +246,15 @@ p {
 }
 .top-nav .container ul.top-nav-menu li.top-nav-item .hover-green:focus {
   outline: none;
+}
+.top-nav .container ul.top-nav-menu li.mega-menu .dropdown {
+  position: unset;
+  width: 100%;
+}
+.top-nav .container ul.top-nav-menu li.mega-menu .dropdown .dropdown-menu.show {
+  inset: 50px 0 0 0 !important;
+  transform: unset !important;
+  width: 100%;
 }
 
 section.popluar-product {
