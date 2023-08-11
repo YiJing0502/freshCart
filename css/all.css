@@ -246,6 +246,9 @@ section.popluar-product {
   margin: 80px 0;
 }
 section.popluar-product .row .col {
+  display: flex;
+}
+section.popluar-product .row .col .card-product {
   flex-grow: 1;
 }
 section.popluar-product .row .col .card-product:hover {

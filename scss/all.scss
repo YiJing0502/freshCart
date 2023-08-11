@@ -333,8 +333,9 @@ section.popluar-product {
     margin: 80px 0;
     .row {
         .col {
-            flex-grow: 1;
+            display: flex;
             .card-product {
+                flex-grow: 1;
                 &:hover {
                     border-color: $main-green;
                     box-shadow: 0 5px 12px rgba(0, 0, 0, .12);
