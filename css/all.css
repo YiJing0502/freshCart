@@ -247,6 +247,7 @@ section.popluar-product .row .col {
 }
 section.popluar-product .row .col .card-product:hover {
   border-color: #0aad0a;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
 }
 section.popluar-product .row .col .card-product:hover a.btn-action {
   opacity: 1;

@@ -336,6 +336,7 @@ section.popluar-product {
             .card-product {
                 &:hover {
                     border-color: $main-green;
+                    box-shadow: 0 5px 12px rgba(0, 0, 0, .12);
                 }
 
                 &:hover a.btn-action {
@@ -359,7 +360,7 @@ section.popluar-product {
                     color: #fff;
                     background-color: #0aad0a;
                 }
-                // 三顆按鈕共通樣式
+                // 三顆按鈕共通樣式+星星＋加入按鈕
                 a.action-link:hover::after {
                     content: attr(data-action);
                     display: block;
