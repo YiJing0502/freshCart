@@ -28,3 +28,8 @@
 .text-light-green{
     color:rgb(121,176,10);
 }
+@media(min-width:1200px){
+.footer-second-right {
+    justify-content: end!important;
+}
+}
