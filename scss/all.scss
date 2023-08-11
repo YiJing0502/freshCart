@@ -65,12 +65,15 @@ li {
 :not(.btn-check)+.btn:active {
     border-width: 0;
 }
+
 .dropdown-menu {
     padding: 10px;
+
     .dropdown-item {
         font-weight: $body-font-weight;
         padding: 5px 10px;
         color: $body-color;
+
         &:hover {
             background-color: $top-showcase-bg-color;
             border-radius: 10px;
@@ -242,7 +245,7 @@ li {
 
             }
 
-            
+
         }
 
         ul.top-nav-menu {
@@ -255,6 +258,7 @@ li {
                         }
                     }
                 }
+
                 #dropdown-menu-big {
                     position: absolute;
                     left: 0;
@@ -264,10 +268,11 @@ li {
                     max-width: 1320px;
                     padding: 1rem 0;
                 }
+
                 .dropdown-menu.show {
                     display: block;
                 }
-                
+
 
                 .nav-down-i {
                     font-size: 10px;
@@ -282,15 +287,18 @@ li {
                     font-weight: $body-font-weight;
                     outline: none;
                     border: 0;
+
                     &:active {
                         border-width: 0;
 
                     }
+
                     &:hover {
                         border-width: 0;
                         color: $main-green;
 
                     }
+
                     &:focus {
                         outline: none;
 
@@ -300,4 +308,119 @@ li {
         }
 
     }
+}
+
+section.popluar-product {
+    .row {
+        .col {
+            .card-product {
+                &:hover {
+                    border-color: $main-green;
+                }
+
+                &:hover a.btn-action {
+                    opacity: 1;
+                }
+
+                a.btn-action {
+                    display: block;
+                    width: 34px;
+                    height: 34px;
+                    background-color: #fff;
+                    box-shadow: 0 2px 4px -1px rgba(145, 158, 171, .2), 0 4px 5px 0 rgba(145, 158, 171, .14), 0 1px 10px 0 rgba(145, 158, 171, .12);
+                    ;
+                    text-align: center;
+                    line-height: 34px;
+                    border-radius: 10px;
+                    transform: translateY(-50%);
+                    opacity: 0;
+                }
+                a.btn-action:hover {
+                    color: #fff;
+                    background-color: #0aad0a;
+                }
+                // 三顆按鈕
+                a.Quick-View:hover::after {
+                    content: 'Quick View';
+                    display: block;
+                    font-size: 14px;
+                    height: 30px;
+                    width: 90px;
+                    border-radius: 10px;
+                    background-color: $head-color;
+                    position: absolute;
+                    top: -40px;
+                    right: -30px;
+                    z-index: 10;
+                }
+                a.Quick-View:hover::before {
+                    content: '';
+                    display: block;
+                    width: 10px;
+                    height: 10px;
+                    position: absolute;
+                    top: -12px;
+                    left: 7px;
+                    border: 10px solid;
+                    border-color: $head-color transparent transparent transparent;
+
+                }
+                a.wishlist:hover::after {
+                    content: 'Wishlist';
+                    display: block;
+                    font-size: 14px;
+                    height: 30px;
+                    width: 90px;
+                    border-radius: 10px;
+                    background-color: $head-color;
+                    position: absolute;
+                    top: -40px;
+                    right: -30px;
+                    z-index: 10;
+                }
+                a.wishlist:hover::before {
+                    content: '';
+                    display: block;
+                    width: 10px;
+                    height: 10px;
+                    position: absolute;
+                    top: -12px;
+                    left: 7px;
+                    border: 10px solid;
+                    border-color: $head-color transparent transparent transparent;
+
+                }
+                a.compare:hover::after {
+                    content: 'Compare';
+                    display: block;
+                    font-size: 14px;
+                    height: 30px;
+                    width: 90px;
+                    border-radius: 10px;
+                    background-color: $head-color;
+                    position: absolute;
+                    top: -40px;
+                    right: -30px;
+                    z-index: 10;
+                }
+                a.compare:hover::before {
+                    content: '';
+                    display: block;
+                    width: 10px;
+                    height: 10px;
+                    position: absolute;
+                    top: -12px;
+                    left: 7px;
+                    border: 10px solid;
+                    border-color: $head-color transparent transparent transparent;
+                }
+
+
+
+
+            }
+
+        }
+    }
+
 }
