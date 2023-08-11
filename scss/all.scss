@@ -3,8 +3,7 @@ $head-color: #21313c;
 $main-green: #0aad0a;
 $star-color: #FFC107;
 $top-showcase-bg-color: rgb(240, 243, 242);
-$samll-font: 15px;
-$meddle-font: 17px;
+$small-font: 12.25px;
 
 $body-font-weight: 500;
 
@@ -63,6 +62,10 @@ a {
 
 p{
     color: $body-color;
+}
+// 12.25px
+.fs-7{
+    font-size: $small-font;
 }
 
 .dropdown-toggle::after {
@@ -381,6 +384,11 @@ section.popluar-product {
                 }
                 .star-color {
                     color: $star-color;
+                }
+
+                .btn-add {
+                    background-color: $main-green;
+                    padding: 4px 8px;
                 }
                 
                 

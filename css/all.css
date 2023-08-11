@@ -55,6 +55,10 @@ p {
   color: #5c6c75;
 }
 
+.fs-7 {
+  font-size: 12.25px;
+}
+
 .dropdown-toggle::after {
   content: none;
   border: 0;
@@ -283,4 +287,8 @@ section.popluar-product .row .col .card-product a.action-link:hover::before {
 }
 section.popluar-product .row .col .card-product .star-color {
   color: #FFC107;
+}
+section.popluar-product .row .col .card-product .btn-add {
+  background-color: #0aad0a;
+  padding: 4px 8px;
 }/*# sourceMappingURL=all.css.map */
