@@ -60,12 +60,12 @@
 }
 
 
-.card-product {
+.d-card-product {
     width: 178px;
     height: 305px;
   }
 
-  .card-product:hover {
+  .d-card-product:hover {
     border-color: #0aad0a;
   }
 
