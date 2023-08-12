@@ -43,6 +43,23 @@
 .big-slide-1 {
     background-image: url(../img/banner/big-slide-1.jpg);
 }
+.big-slide-content {
+    padding: 8rem 2rem 8rem 4rem;
+}
+.slide-h2 {
+    font-size: 48px;
+}
+@media(max-width: 768px) {
+    .big-slide-content {
+        padding: 8rem 4rem 8rem 2rem;
+    }
+    .slide-h2 {
+        font-size: 44px;
+    }
+    .slide-p {
+        font-size: 14px;
+    }
+}
 .big-slide-2 {
     background-image: url(../img/banner/big-slide-2.jpg);
 }
