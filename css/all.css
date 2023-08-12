@@ -55,6 +55,10 @@ p {
   color: #5c6c75;
 }
 
+.main-green-color {
+  color: #0aad0a;
+}
+
 .fs-7 {
   font-size: 12.25px;
 }
@@ -213,6 +217,9 @@ p {
 .top-nav .container .dropdown .all-departments-btn:hover {
   background-color: #099509;
 }
+.top-nav .container ul.top-nav-menu li.top-nav-item .dropdown .dropdown-menu {
+  box-shadow: 0 0 2px rgba(145, 158, 171, 0.2), 0 12px 24px -4px rgba(145, 158, 171, 0.12);
+}
 .top-nav .container ul.top-nav-menu li.top-nav-item .dropdown .dropdown-menu .test {
   max-width: 1320px;
 }
@@ -254,11 +261,29 @@ p {
   position: unset;
   width: 100%;
 }
+.top-nav .container ul.top-nav-menu li.mega-menu .dropdown .dropdown-menu {
+  box-shadow: 0 0 2px rgba(145, 158, 171, 0.2), 0 12px 24px -4px rgba(145, 158, 171, 0.12);
+}
 .top-nav .container ul.top-nav-menu li.mega-menu .dropdown .dropdown-menu.show {
   inset: 50px 0 0 0 !important;
   transform: unset !important;
   width: 100%;
   height: 400px;
+}
+.top-nav .container ul.top-nav-menu li.mega-menu .dropdown .mega-branner {
+  top: 35px;
+  left: 40px;
+}
+@media (max-width: 1199px) {
+  .top-nav .container ul.top-nav-menu li.mega-menu .dropdown .mega-branner {
+    top: 20px;
+    left: 30px;
+  }
+}
+.top-nav .container ul.top-nav-menu li.mega-menu .dropdown .mega-branner .shop-now-btn {
+  color: #fff;
+  padding: 4px 8px;
+  background-color: #0aad0a;
 }
 
 section.popluar-product {
