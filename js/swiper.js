@@ -4,4 +4,8 @@ var swiper = new Swiper(".bigSwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
 });
