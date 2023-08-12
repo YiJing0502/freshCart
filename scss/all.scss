@@ -401,6 +401,13 @@ p {
 
 }
 
+section.big-banner {
+    margin-top: 32px;
+    .container {
+        height: 50vh;
+
+    }
+}
 
 section.popluar-product {
     margin: 80px 0;

@@ -290,6 +290,13 @@ p {
   background-color: #0aad0a;
 }
 
+section.big-banner {
+  margin-top: 32px;
+}
+section.big-banner .container {
+  height: 50vh;
+}
+
 section.popluar-product {
   margin: 80px 0;
 }
