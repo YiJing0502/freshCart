@@ -357,6 +357,36 @@ section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .car
   white-space: nowrap;
 }
 
+@media (min-width: 768px) {
+  section.small-banner .container .two-card > * {
+    flex: 0 0 auto;
+    width: 48%;
+  }
+}
+@media (min-width: 992px) {
+  section.small-banner .container .two-card > * {
+    flex: 0 0 auto;
+    width: 49%;
+  }
+}
+section.small-banner .container .row .food-banner {
+  padding: 3rem 2rem;
+  background-position: center;
+  background-size: cover;
+  height: 209px;
+  border-radius: 10px;
+}
+section.small-banner .container .row .food-left-banner {
+  background-image: url(../img/banner/grocery-banner-1.png);
+}
+section.small-banner .container .row .food-right-banner {
+  background-image: url(../img/banner/grocery-banner-2.jpg);
+}
+section.small-banner .container .row .buy-food-btn {
+  width: 102px;
+  height: 41px;
+}
+
 section.popluar-product {
   margin: 80px 0;
 }

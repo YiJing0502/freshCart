@@ -73,6 +73,7 @@ p {
 .fs-6-7 {
     font-size: $middle-font;
 }
+
 // 12.25px
 .fs-7 {
     font-size: $small-font;
@@ -298,6 +299,7 @@ p {
                         .doc-icon {
                             font-size: 25px;
                         }
+
                         .doc-body {
                             // line-height: 59px;
                         }
@@ -383,6 +385,7 @@ p {
                             top: 20px;
                             left: 30px;
                         }
+
                         .shop-now-btn {
                             // width: 60px;
                             // font-size: $fs-7;
@@ -403,6 +406,7 @@ p {
 
 section.big-banner {
     margin-top: 32px;
+
     .container {
         // height: 50vh;
 
@@ -411,6 +415,7 @@ section.big-banner {
 
 section.featured-item {
     margin: 5rem 0 3rem;
+
     .container {
         .smallSwiper {
             .swiper-wrapper {
@@ -419,74 +424,128 @@ section.featured-item {
                         display: block;
                         flex-grow: 1;
                         width: 100%;
-        
+
                         &:hover {
                             border-color: $main-green;
                             box-shadow: 0 5px 12px rgba(0, 0, 0, .12);
                         }
+
                         .card-body {
                             width: 200px;
+
                             @media (max-width: 1399px) {
                                 width: 260px;
                             }
+
                             @media (max-width: 1200px) {
                                 width: 220px;
                             }
+
                             @media (max-width: 992px) {
                                 width: 160px;
                             }
+
                             @media (max-width: 770px) {
                                 width: 240px;
                             }
+
                             @media (max-width: 645px) {
                                 width: 200px;
                             }
+
                             @media (max-width: 545px) {
                                 width: 180px;
                             }
+
                             @media (max-width: 445px) {
                                 width: 160px;
                             }
+
                             @media (max-width: 375px) {
                                 width: 140px;
                             }
+
                             // gap: 10px;
                             flex: 1 1 auto;
                             padding: 32px 16px;
                             color: var(--bs-card-color);
-                                .card-text {
-                                    overflow: hidden;
-                                    text-overflow: ellipsis;
-                                    white-space: nowrap;
-                                    // width: 127px;
-                                }
+
+                            .card-text {
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                // width: 127px;
+                            }
 
                         }
-        
-                        
-        
-                        
-        
-                        
-        
-                        
-        
-                        
-        
-                        
-        
-                        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     }
                 }
             }
         }
 
+    }
+}
+
+section.small-banner {
+    .container {
+        .two-card>* {
+            @media (min-width: 768px) {
+                flex: 0 0 auto;
+                width: 48%;
+            }
+            @media (min-width: 992px) {
+                flex: 0 0 auto;
+                width: 49%;
+            }
+        }
+
+        .row {
+
+            .food-banner {
+                padding: 3rem 2rem;
+                background-position: center;
+                background-size: cover;
+                height: 209px;
+                border-radius: 10px;
+            }
+
+            .food-left-banner {
+                background-image: url(../img/banner/grocery-banner-1.png);
+
+            }
+
+            .food-right-banner {
+                background-image: url(../img/banner/grocery-banner-2.jpg);
+
+
+            }
+
+            .buy-food-btn {
+                width: 102px;
+                height: 41px;
+            }
+
+        }
     }
 }
 
