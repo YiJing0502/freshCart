@@ -296,6 +296,67 @@ section.big-banner {
 section.featured-item {
   margin: 5rem 0 3rem;
 }
+section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product {
+  display: block;
+  flex-grow: 1;
+  width: 100%;
+}
+section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product:hover {
+  border-color: #0aad0a;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body {
+  width: 200px;
+  flex: 1 1 auto;
+  padding: 32px 16px;
+  color: var(--bs-card-color);
+}
+@media (max-width: 1399px) {
+  section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body {
+    width: 260px;
+  }
+}
+@media (max-width: 1200px) {
+  section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body {
+    width: 220px;
+  }
+}
+@media (max-width: 992px) {
+  section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body {
+    width: 160px;
+  }
+}
+@media (max-width: 770px) {
+  section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body {
+    width: 240px;
+  }
+}
+@media (max-width: 645px) {
+  section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body {
+    width: 200px;
+  }
+}
+@media (max-width: 545px) {
+  section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body {
+    width: 180px;
+  }
+}
+@media (max-width: 445px) {
+  section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body {
+    width: 160px;
+  }
+}
+@media (max-width: 375px) {
+  section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body {
+    width: 140px;
+  }
+}
+section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product .card-body .card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 section.popluar-product {
   margin: 80px 0;
 }

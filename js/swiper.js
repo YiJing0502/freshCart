@@ -19,17 +19,24 @@ var swiper = new Swiper(".smallSwiper", {
       clickable: true,
     },
     breakpoints: {
-      640: {
+      320: {
+        slidesPerGroup: 1,
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween: 10,
       },
-      768: {
+      820: {
+        slidesPerGroup: 4,
         slidesPerView: 4,
-        spaceBetween: 40,
+        spaceBetween: 15,
       },
-      1024: {
-        slidesPerView: 5,
-        spaceBetween: 50,
+      1400: {
+        slidesPerGroup: 1,
+        slidesPerView: 6,
+        spaceBetween: 15,
       },
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
   });
