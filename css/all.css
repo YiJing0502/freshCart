@@ -293,6 +293,9 @@ p {
 section.big-banner {
   margin-top: 32px;
 }
+section.featured-item {
+  margin: 5rem 0 3rem;
+}
 section.popluar-product {
   margin: 80px 0;
 }
