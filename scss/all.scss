@@ -4,6 +4,7 @@ $main-green: #0aad0a;
 $star-color: #FFC107;
 $top-showcase-bg-color: rgb(240, 243, 242);
 $small-font: 12.25px;
+$middle-font: 14px;
 
 $body-font-weight: 500;
 
@@ -68,6 +69,10 @@ p {
     color: #0aad0a;
 }
 
+// 14px
+.fs-6-7 {
+    font-size: $middle-font;
+}
 // 12.25px
 .fs-7 {
     font-size: $small-font;
@@ -290,9 +295,11 @@ p {
                     .dropdown-menu {
                         box-shadow: 0 0 2px rgba(145, 158, 171, .2), 0 12px 24px -4px rgba(145, 158, 171, .12);
 
-                        .test {
-                            max-width: 1320px;
-
+                        .doc-icon {
+                            font-size: 25px;
+                        }
+                        .doc-body {
+                            // line-height: 59px;
                         }
                     }
                 }

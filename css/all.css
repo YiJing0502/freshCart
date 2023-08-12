@@ -59,6 +59,10 @@ p {
   color: #0aad0a;
 }
 
+.fs-6-7 {
+  font-size: 14px;
+}
+
 .fs-7 {
   font-size: 12.25px;
 }
@@ -220,8 +224,8 @@ p {
 .top-nav .container ul.top-nav-menu li.top-nav-item .dropdown .dropdown-menu {
   box-shadow: 0 0 2px rgba(145, 158, 171, 0.2), 0 12px 24px -4px rgba(145, 158, 171, 0.12);
 }
-.top-nav .container ul.top-nav-menu li.top-nav-item .dropdown .dropdown-menu .test {
-  max-width: 1320px;
+.top-nav .container ul.top-nav-menu li.top-nav-item .dropdown .dropdown-menu .doc-icon {
+  font-size: 25px;
 }
 .top-nav .container ul.top-nav-menu li.top-nav-item #dropdown-menu-big {
   position: absolute;
