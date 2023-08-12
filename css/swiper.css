@@ -18,17 +18,31 @@
     height: 100%;
     object-fit: cover;
 }
+/* 調整按鈕高度 */
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,8px);
+    top: var(--swiper-pagination-top,auto);
+    bottom: 20px;
+    left: 0px;
+    width: 100%;
+}
+/* 調整active按鈕顏色 */
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color,var(--swiper-theme-color));
+    background: #5c6c75;
+}
 .big-slide {
     display: block;
     max-width: 100%;
     height: auto;
     background-size: cover;
     background-position: center;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .big-slide-1 {
-    background-image: url(../img/banner/slide-1.jpg);
+    background-image: url(../img/banner/big-slide-1.jpg);
 }
-.big-slide-1 {
-    background-image: url(../img/banner/slide-1.jpg);
+.big-slide-2 {
+    background-image: url(../img/banner/big-slide-2.jpg);
 }
