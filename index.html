@@ -97,62 +97,182 @@
                 <i class="bi bi-geo-alt"></i>
                 <span>Pick Location</span>
               </button>
-              <button type="button" class="btn dropdown-toggle all-departments-btn fs-6-7 "
+              <button type="button" class="btn dropdown-toggle all-departments-btn fs-6-7 mb-3"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="bi bi-grid me-1"></i>
                 <span>All Departments</span>
               </button>
-              <div>
-                Some text as placeholder. In real life you can have the elements you have chosen. Like,
-                text, images, lists, etc.
-              </div>
+              <!-- accordion test to do -->
               <div class="accordion" id="accordionExample">
+                <!-- Home -->
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
+                    <button class="accordion-button hover-green" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Home
                     </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <div class="accordion-body fs-6-7">
+                      <a class="dropdown-item" href="#">Home 1</a>
+                      <a class="dropdown-item" href="#">Home 2</a>
+                      <a class="dropdown-item" href="#">Home 3</a>
+                      <a class="dropdown-item" href="#">Home 4</a>
+                      <a class="dropdown-item" href="#">Home 5<span class="badge light-blue ms-1">New</span></a>
+
                     </div>
                   </div>
                 </div>
+                <!-- Shop -->
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
+                    <button class="accordion-button collapsed hover-green" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Shop
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <div class="accordion-body  fs-6-7">
+                      <a class="dropdown-item" href="#">Shop Grid - Filter</a>
+                      <a class="dropdown-item" href="#">Shop Grid - 3 column</a>
+                      <a class="dropdown-item" href="#">Shop List - Filter</a>
+                      <a class="dropdown-item" href="#">Shop - Filter</a>
+                      <a class="dropdown-item" href="#">Shop Single</a>
+                      <a class="dropdown-item" href="#">Shop Single v2</a>
+                      <a class="dropdown-item" href="#">Shop Wishlist</a>
+                      <a class="dropdown-item" href="#">Shop Cart</a>
+                      <a class="dropdown-item" href="#">Shop Checkout</a>
                     </div>
                   </div>
                 </div>
+                <!-- Stores -->
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
+                    <button class="accordion-button collapsed hover-green" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Stores
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <div class="accordion-body fs-6-7">
+                      <a class="dropdown-item" href="#">Store List</a>
+                      <a class="dropdown-item" href="#">Store Grid</a>
+                      <a class="dropdown-item" href="#">Store Single</a>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="dropdown mt-3">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                  Dropdown button
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <!-- Mega menu -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed hover-green" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Mega menu
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body fs-6-7">
+                      <ul>
+                        <li>
+                          <!-- Mega menu 第一列 -->
+                          <h6 class="main-green-color">Dairy, Bread & Eggs</h6>
+                          <a class="dropdown-item" href="#">Butter</a>
+                          <a class="dropdown-item" href="#">Milk Drinks</a>
+                          <a class="dropdown-item" href="#">Curd & Yogurt</a>
+                          <a class="dropdown-item" href="#">Eggs</a>
+                          <a class="dropdown-item" href="#">Buns & Bakery</a>
+                          <a class="dropdown-item" href="#">Cheese</a>
+                          <a class="dropdown-item" href="#">Condensed Milk</a>
+                          <a class="dropdown-item" href="#">Dairy Products</a>
+                        </li>
+                        <li class="mt-3">
+                          <!-- Mega menu 第二列 -->
+                          <h6 class="main-green-color">Breakfast & Instant Food</h6>
+                          <a class="dropdown-item" href="#">Breakfast Cereal</a>
+                          <a class="dropdown-item" href="#"> Noodles, Pasta & Soup</a>
+                          <a class="dropdown-item" href="#">Frozen Veg Snacks</a>
+                          <a class="dropdown-item" href="#"> Frozen Non-Veg Snacks</a>
+                          <a class="dropdown-item" href="#"> Vermicelli</a>
+                          <a class="dropdown-item" href="#"> Instant Mixes</a>
+                          <a class="dropdown-item" href="#"> Batter</a>
+                          <a class="dropdown-item" href="#"> Fruit and Juices</a>
+                        </li>
+                        <li class="mt-3">
+                          <!-- Mega menu 第三列 -->
+                          <h6 class="main-green-color">Cold Drinks & Juices</h6>
+                          <a class="dropdown-item" href="#">Soft Drinks</a>
+                          <a class="dropdown-item" href="#">Fruit Juices</a>
+                          <a class="dropdown-item" href="#">Coldpress</a>
+                          <a class="dropdown-item" href="#">Water & Ice Cubes</a>
+                          <a class="dropdown-item" href="#">Soda & Mixers</a>
+                          <a class="dropdown-item" href="#">Health Drinks</a>
+                          <a class="dropdown-item" href="#">Herbal Drinks</a>
+                          <a class="dropdown-item" href="#">Milk Drinks</a>
+                        </li>
+                        <li class="position-relative mt-3">
+                          <!--Mega menu 第四列 -->
+                          <img src="./img/banner/mega-menu-banner.jpeg" alt="" class="img-fluid">
+                          <div class="position-absolute mega-branner">
+                            <h5>
+                              Dont miss this <br> offer today.
+                            </h5>
+                            <a href="#" class="btn shop-now-btn ms-auto fs-7">Shop Now</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Pages -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed hover-green" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Pages
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body fs-6-7">
+                      <a class="dropdown-item" href="#">Blog</a>
+                      <a class="dropdown-item" href="#">Blog Single</a>
+                      <a class="dropdown-item" href="#">Blog Category</a>
+                      <a class="dropdown-item" href="#">About us</a>
+                      <a class="dropdown-item" href="#">404 Error</a>
+                      <a class="dropdown-item" href="#">Contact</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Account -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed hover-green" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Account
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body fs-6-7">
+                      <a class="dropdown-item" href="#">Sign in</a>
+                      <a class="dropdown-item" href="#">Signup</a>
+                      <a class="dropdown-item" href="#">Forgot Password</a>
+                      <a class="dropdown-item" href="#">My Account</a>
+                      <a class="dropdown-item" href="#">Home 5<span class="badge light-blue ms-1">New</span>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Dashboard -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <a href="#">
+                      <button class="accordion-button collapsed hover-green dashboard" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      Dashboard
+                    </button>
+                    </a>
+                    
+                  </h2>
+                  
+                </div>
               </div>
             </div>
           </div>
@@ -229,7 +349,7 @@
               </ul>
             </div>
           </li>
-          <!-- mega menu not working -->
+          <!-- mega menu -->
           <li class="top-nav-item mega-menu">
             <div class="dropdown">
               <button class="btn dropdown-toggle hover-green fs-6-7" type="button" data-bs-toggle="dropdown"
@@ -284,7 +404,6 @@
                           Dont miss this <br> offer today.
                         </h5>
                         <a href="#" class="btn shop-now-btn ms-auto fs-7">Shop Now</a>
-
                       </div>
                     </div>
                   </div>

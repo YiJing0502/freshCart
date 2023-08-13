@@ -258,20 +258,22 @@ p {
                     color: $main-green;
                 }
             }
+
             // 彈跳menu
             .offcanvas {
+
                 // 彈跳menu 內容
                 .offcanvas-body {
                     form {
                         width: 100%;
-        
+
                         .form-control {
                             flex: 1 1 auto;
                             width: 100%;
                             // width: 378px;
                             height: 42px;
                         }
-        
+
                         .form-control:focus {
                             color: $head-color;
                             background-color: #fff;
@@ -280,23 +282,24 @@ p {
                             box-shadow: 0 0 0 0.25rem rgba(10, 173, 10, .25);
                         }
                     }
-        
+
                     .search-btn {
                         top: 3px;
                         right: 10px;
                         z-index: 10;
                     }
-        
+
                     .location-btn {
                         width: 100%;
                         padding: 8.8px 16px;
                         font-weight: $body-font-weight;
                     }
-        
+
                     .location-btn:hover {
                         background-color: #c1c7c6;
                         color: #5c6c75;
                     }
+
                     .all-departments-btn {
                         height: 42px;
                         width: 100%;
@@ -305,12 +308,161 @@ p {
                         background-color: $main-green;
                         color: #fff;
                         border-width: 0;
-        
+
                         &:hover {
                             background-color: darken($main-green, 5%);
                         }
-        
+
                     }
+
+                    .accordion {
+                        .accordion-item {
+                            .accordion-header {
+
+                                // 修正背景色 加入文字顏色
+                                .accordion-button:not(.collapsed) {
+                                    color: var(--bs-accordion-active-color);
+                                    background-color: #fff;
+                                    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+                                    color: $main-green;
+
+                                }
+
+                                // 修正四周的亮框
+                                .accordion-button:focus {
+                                    color: $main-green;
+                                    z-index: 3;
+                                    border-color: #fff;
+                                    outline: 0;
+                                    box-shadow: unset;
+                                    border-width: 0px;
+                                }
+                                .dashboard.accordion-button::after {
+                                    flex-shrink: 0;
+                                    width: var(--bs-accordion-btn-icon-width);
+                                    height: var(--bs-accordion-btn-icon-width);
+                                    margin-left: auto;
+                                    content: "";
+                                    background-image: var(--bs-accordion-btn-icon);
+                                    background-repeat: no-repeat;
+                                    background-size: var(--bs-accordion-btn-icon-width);
+                                    transition: var(--bs-accordion-btn-icon-transition);
+                                    content: none;
+                                    border: 0;
+                                    display: none;
+                                }
+                            }
+
+                            .accordion-collapse {
+                                .accordion-body {
+                                    padding: 10px;
+
+                                    .dropdown-item {
+                                        padding: 5px 10px;
+
+                                        &:hover {
+                                            background-color: $top-showcase-bg-color;
+                                            border-radius: 10px;
+
+                                        }
+                                    }
+                                    .mega-branner {
+                                        top: 35px;
+                                        left: 40px;
+                
+                                        @media(max-width: 1199px) {
+                                            top: 35px;
+                                            left: 30px;
+                                        }
+                
+                                        .shop-now-btn {
+                                            // width: 60px;
+                                            // font-size: $fs-7;
+                                            // height: 19px;
+                                            // line-height: 19px;
+                                            color: #fff;
+                                            padding: 4px 8px;
+                                            background-color: #0aad0a;
+                                        }
+                                    }
+                                   
+                                }
+                            }
+                        }
+                    }
+
+
+
+
+
+                    .dropdown-menu {
+                        box-shadow: 0 0 2px rgba(145, 158, 171, .2), 0 12px 24px -4px rgba(145, 158, 171, .12);
+
+                        .doc-icon {
+                            font-size: 25px;
+                        }
+                    }
+
+                    .light-blue {
+                        background-color: #CCE1FE;
+                        color: #21313c;
+                    }
+
+                    .accordion-button.hover-green {}
+
+                    .hover-green {
+                        font-weight: $body-font-weight;
+                        outline: none;
+                        border: 0;
+                        // color: $main-green;
+
+                        &:active {
+                            border-width: 0;
+                            color: $main-green;
+
+                        }
+
+                        &:hover {
+                            border-width: 0;
+                            color: $main-green;
+                        }
+
+                        &:focus {
+                            color: $main-green;
+                            outline: none;
+                        }
+                    }
+                    
+
+
+                    // mega-menu-control
+                    .mega-menu {
+                        .dropdown {
+                            position: unset;
+                            width: 100%;
+
+                            .dropdown-menu {
+                                box-shadow: 0 0 2px rgba(145, 158, 171, .2), 0 12px 24px -4px rgba(145, 158, 171, .12);
+                            }
+
+                            .dropdown-menu.show {
+                                inset: 50px 0 0 0 !important;
+                                transform: unset !important;
+                                width: 100%;
+                                height: 400px;
+
+
+
+                                // height: 100%;
+                                // left: -300px;
+                                // right: 0px!important;
+                                // left: 10px!important;
+                            }
+
+                            
+                        }
+                    }
+
                 }
             }
         }
@@ -568,6 +720,7 @@ section.small-banner {
                 flex: 0 0 auto;
                 width: 48%;
             }
+
             @media (min-width: 992px) {
                 flex: 0 0 auto;
                 width: 49%;
