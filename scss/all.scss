@@ -321,6 +321,13 @@ p {
                         }
 
                     }
+                    .all-departments-menu {
+                        border: 1px solid #dfe2e1;
+                        padding: 10px;
+                        border-radius: 10px;
+
+                        
+                    }
 
                     .accordion {
                         .accordion-item {
@@ -364,15 +371,7 @@ p {
                                 .accordion-body {
                                     padding: 10px;
 
-                                    .dropdown-item {
-                                        padding: 5px 10px;
-
-                                        &:hover {
-                                            background-color: $top-showcase-bg-color;
-                                            border-radius: 10px;
-
-                                        }
-                                    }
+                                    
                                     .mega-branner {
                                         top: 35px;
                                         left: 40px;
@@ -401,14 +400,18 @@ p {
                         }
                     }
 
-
-
-
-
                     .dropdown-menu {
-                        box-shadow: 0 0 2px rgba(145, 158, 171, .2), 0 12px 24px -4px rgba(145, 158, 171, .12);
+                        box-shadow: 0 0 2px rgba(145, 158, 171, .2), 0 12px 24px -4px rgba(145, 158, 171, .12);   
+                    }
+                    // 共用元素
+                    .dropdown-item {
+                        padding: 5px 10px;
 
-                        
+                        &:hover {
+                            background-color: $top-showcase-bg-color;
+                            border-radius: 10px;
+
+                        }
                     }
 
                     .light-blue {

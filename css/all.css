@@ -251,6 +251,11 @@ p {
 .top-search .container .top-search-right .offcanvas .offcanvas-body .all-departments-btn:hover {
   background-color: #099509;
 }
+.top-search .container .top-search-right .offcanvas .offcanvas-body .all-departments-menu {
+  border: 1px solid #dfe2e1;
+  padding: 10px;
+  border-radius: 10px;
+}
 .top-search .container .top-search-right .offcanvas .offcanvas-body .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
   background-color: #fff;
@@ -282,13 +287,6 @@ p {
 .top-search .container .top-search-right .offcanvas .offcanvas-body .accordion .accordion-item .accordion-collapse .accordion-body {
   padding: 10px;
 }
-.top-search .container .top-search-right .offcanvas .offcanvas-body .accordion .accordion-item .accordion-collapse .accordion-body .dropdown-item {
-  padding: 5px 10px;
-}
-.top-search .container .top-search-right .offcanvas .offcanvas-body .accordion .accordion-item .accordion-collapse .accordion-body .dropdown-item:hover {
-  background-color: rgb(240, 243, 242);
-  border-radius: 10px;
-}
 .top-search .container .top-search-right .offcanvas .offcanvas-body .accordion .accordion-item .accordion-collapse .accordion-body .mega-branner {
   top: 35px;
   left: 40px;
@@ -309,6 +307,13 @@ p {
 }
 .top-search .container .top-search-right .offcanvas .offcanvas-body .dropdown-menu {
   box-shadow: 0 0 2px rgba(145, 158, 171, 0.2), 0 12px 24px -4px rgba(145, 158, 171, 0.12);
+}
+.top-search .container .top-search-right .offcanvas .offcanvas-body .dropdown-item {
+  padding: 5px 10px;
+}
+.top-search .container .top-search-right .offcanvas .offcanvas-body .dropdown-item:hover {
+  background-color: rgb(240, 243, 242);
+  border-radius: 10px;
 }
 .top-search .container .top-search-right .offcanvas .offcanvas-body .light-blue {
   background-color: #CCE1FE;
