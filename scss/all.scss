@@ -385,6 +385,9 @@ p {
                                             background-color: #0aad0a;
                                         }
                                     }
+                                    .doc-icon {
+                                        font-size: 25px;
+                                    }
                                    
                                 }
                             }
@@ -398,17 +401,13 @@ p {
                     .dropdown-menu {
                         box-shadow: 0 0 2px rgba(145, 158, 171, .2), 0 12px 24px -4px rgba(145, 158, 171, .12);
 
-                        .doc-icon {
-                            font-size: 25px;
-                        }
+                        
                     }
 
                     .light-blue {
                         background-color: #CCE1FE;
                         color: #21313c;
                     }
-
-                    .accordion-button.hover-green {}
 
                     .hover-green {
                         font-weight: $body-font-weight;
@@ -433,35 +432,6 @@ p {
                         }
                     }
                     
-
-
-                    // mega-menu-control
-                    .mega-menu {
-                        .dropdown {
-                            position: unset;
-                            width: 100%;
-
-                            .dropdown-menu {
-                                box-shadow: 0 0 2px rgba(145, 158, 171, .2), 0 12px 24px -4px rgba(145, 158, 171, .12);
-                            }
-
-                            .dropdown-menu.show {
-                                inset: 50px 0 0 0 !important;
-                                transform: unset !important;
-                                width: 100%;
-                                height: 400px;
-
-
-
-                                // height: 100%;
-                                // left: -300px;
-                                // right: 0px!important;
-                                // left: 10px!important;
-                            }
-
-                            
-                        }
-                    }
 
                 }
             }
