@@ -433,7 +433,7 @@ section.featured-item {
   margin: 5rem 0 3rem;
 }
 section.featured-item .container .smallSwiper .swiper-wrapper .swiper-slide .card-product {
-  display: block;
+  display: flex;
   flex-grow: 1;
   width: 100%;
 }
