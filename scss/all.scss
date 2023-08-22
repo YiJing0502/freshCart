@@ -619,8 +619,8 @@ section.featured-item {
 
                         .card-body {
                             width: 200px;
-                            flex: 1;
-                            flex-basis: auto;
+                            // flex: 1;
+                            // flex-basis: max-content;
                             @media (max-width: 1399px) {
                                 width: 260px;
                             }
