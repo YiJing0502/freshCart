@@ -619,7 +619,8 @@ section.featured-item {
 
                         .card-body {
                             width: 200px;
-
+                            flex: 1;
+                            flex-basis: auto;
                             @media (max-width: 1399px) {
                                 width: 260px;
                             }
@@ -652,8 +653,8 @@ section.featured-item {
                                 width: 140px;
                             }
 
-                            // gap: 10px;
-                            flex: 1 1 auto;
+                            // // gap: 10px;
+                            // flex: 1 1 auto;
                             padding: 32px 16px;
                             color: var(--bs-card-color);
 
