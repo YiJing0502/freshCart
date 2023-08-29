@@ -119,3 +119,33 @@
   .card-product:hover a.btn-action {
     opacity: 1;
   }
+
+  .top-self{
+    top:200px;
+  }
+  .size-60-60{
+    box-sizing: border-box;
+    width:60px;
+    height:60px;
+  }
+  @media(max-width:1200px){
+    .img-self{
+        width:186px;
+        height:186px;
+    }
+}
+  
+  @media(max-width:990px){
+    .img-self{
+        width:302px;
+        height:232px;
+    }
+    .w-self-1{
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .w-self-2{
+        min-width: 200%;
+    }
+}
+  
